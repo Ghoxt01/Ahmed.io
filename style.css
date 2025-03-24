@@ -45,8 +45,20 @@ body {
 }
 
 @media (max-width: 800px) {
-    
-}
+     .navbar {
+         flex-wrap: wrap;
+         padding: 10px 30px;
+     }
+ 
+     .nav-logo {
+         height: 80px;
+     }
+ 
+     .nav-links {
+         flex-direction: column;
+         gap: 20px;
+     }
+ }
 
 /* --- NavBar Ends --- */
 
