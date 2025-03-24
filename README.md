@@ -36,7 +36,7 @@ Coming Soon !
 
 ## 📞 Contact & Socials
 📧 **Email:** Coming Soon !
-🌐 **Portfolio:** [your-website.com](https://your-website.com)  
+🌐 **Portfolio:** https://ghoxt01.github.io/Portfolio.github.io
 🐦 **Twitter:** Coming Soon !
 
 ---
