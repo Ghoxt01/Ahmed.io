@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Register.css">
+    <title>Register Page</title>
+</head>
+<body>
+    
+    <!-- navbar section -->
+
+    <header role="banner">
+
+        <nav role="navigation" class="navbar">
+            <ul class="nav-links" role="list">
+                <li role="listitem"><a href="index.html">Home</a></li> 
+            </ul>
+
+            <img class="nav-logo" src="/Med-Portolio-img/med logo 2 ( copy ).png" alt="Portfolio Med Logo">
+
+            <ul class="nav-links" role="list"> 
+                <li role="listitem"><a href="#Med-Portfolio.html/Contact">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    
+     <!-- Hero section -->
+    
+     <section id="Home" class="hero_section">
+        <h1>Register for Our Service</h1>
+        
+        <p><strong>Glad</strong> you made up your mind and are <strong>willing</strong> to <strong>register</strong> on our servers!</p>
+    
+    </section>
+    
+
+    
+
+    <main role="main">
+
+        <form role="form" aria-labelledby="register-heading">
+
+            <h2 id="register-heading"> User Information </h2>
+    
+    
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required aria-required="true" autocomplete="name">
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required aria-required="true" aria-invalid="false" autocomplete="email">
+    
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Your Password" required aria-required="true" aria-describedby="password-help" autocomplete="new-password">
+            <p id="password-help">Use at least 8 characters, including letters and numbers.</p>
+        
+            <label for="dob">Date of birth:</label>
+            <input type="date" name="dob" id="dob" max="2025-03-09" min="1990-12-30" required aria-required="true">
+    
+            <div role="radiogroup" aria-labelledby="gender-label">
+    
+                <p id="gender-label">Select Your Gender:</p>
+    
+                <label for="male">Male:</label>
+
+            <input type="radio" name="gender" id="male" value="male" required aria-checked="false">
+
+
+                <label for="female">Female:</label>
+            <input type="radio" name="gender" id="female" value="female" required aria-checked="false">
+
+            <label for="other">Other:</label>
+            <input type="radio" name="gender" id="other" value="other" required aria-checked="false">
+    
+            </div>
+        
+            <button type="submit">Register</button>
+    
+        </form>
+
+    </main>
+    
+
+    <footer role="contentinfo">
+
+        <p>&copy; 2025 Med Portfolio. All rights reserved.</p>
+
+    </footer>
+
+        <script src="scriptx1.js"></script>
+
+    </body>
+    </html>
+    
+    
+    
