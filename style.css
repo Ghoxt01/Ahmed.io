@@ -5,6 +5,7 @@ body {
     padding: 0;
 }
 
+
 /* --- NavBar --- */
 
 .navbar {
@@ -44,19 +45,7 @@ body {
 }
 
 @media (max-width: 800px) {
-    .navbar {
-        flex-wrap: wrap;
-        padding: 10px 30px;
-    }
-
-    .nav-logo {
-        height: 80px;
-    }
-
-    .nav-links {
-        flex-direction: column;
-        gap: 20px;
-    }
+    
 }
 
 /* --- NavBar Ends --- */
@@ -348,4 +337,135 @@ footer > p {
 
 .rights {
     text-align: center;
+}
+
+
+/* -------------- GPT ----------------*/
+
+@media (max-width: 768px) {
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+
+
+    img {
+        height: 200px;
+        width: auto; 
+    }
+
+    /* Hero Section */
+    .hero_section h1 {
+        font-size: 35px;
+        margin: 100px auto 30px auto;
+    }
+
+    .hero_section p {
+        font-size: 20px;
+    }
+
+    .About_section {
+        display: flex;
+        background-color: #080808;
+        margin: 15px;
+        padding: 20px;
+        border-radius: 5px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* About Section */
+    .about_card {
+        flex-direction: column;
+        text-align: center;
+        padding: 11px;
+        margin: 0px;
+    }
+
+    .about_card img {
+        height: 200px;
+        width: auto;
+    }
+
+    .skill_text {
+    display: flex;
+    text-align: center;
+    list-style: ;
+    gap: 50px;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    }   
+
+    .Projects_section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Projects_list2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        
+    .Projects_list3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    } 
+    
+    .Projects_list3 img{
+        height: 200px;
+        width: auto;
+    }
+
+    /* Projects */
+    .Projects_list1 {
+        grid-template-columns: 1fr;
+    }
+
+    .Projects_list1 img {
+        height: auto;
+        width: 100%;
+    }
+
+    /* Experience Table */
+    table {
+        width: 100%;
+        font-size: 14px;
+        margin: 10px;
+    }
+ 
+    /* Contact Form */
+    form {
+        margin: 10px 10%;
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+    }
 }
