@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title> Portfolio Med </title>
+    <title>Ahmed Moudar — Design & Web Development</title>
 </head>
 <body>
 
@@ -19,9 +19,9 @@
             <ul class="nav-links">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
                 <li><a href="#Skills">Skills</a></li>
-                <li><a href="Register.html">Register</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Contact">Hire Me</a></li>
             </ul>
 
         </nav>
@@ -35,8 +35,10 @@
 
     <section id="Home" class="hero_section">
 
-        <h1>Welcome</h1>
-        <p>This is Ahmed's Creative <strong>Hub</strong><br>Where Design Meets <strong>Innovation</strong>.</p>
+        <h1>Ahmed Moudar</h1>
+        <p>Graphic Design & Web Development, done fast and done right.<br>
+        Logos, headers, landing pages, and full websites — <strong>delivered in days, not weeks.</strong></p>
+        <p><a class="cta_button" href="#Contact">Get a Quote</a></p>
     
     </section>
 
@@ -62,8 +64,8 @@
 
             <h2>Moudar Ahmed</h2>
 
-            <p>I'm <strong>Moudar Ahmed</strong>, a passionate creative professional and aspiring developer with a diverse background. My journey began in <strong>design</strong>, where I translated ideas into impactful visuals. Over time, I expanded into web <strong>development</strong>, merging design with functionality.</p>
-            <p>Beyond work, I’ve honed my discipline as a <strong>martial artist</strong> with a <b>4th Dan Black Belt</b> in <b>Hapkido</b> and as a <b>basketball player</b>. I'm currently pursuing my goal of becoming a <strong><i>full-stack developer</i></strong> and building a global tech career.</p>
+            <p>I'm <strong>Moudar Ahmed</strong>, a graphic designer and web developer based in Morocco. I build logos, headers, and websites for clients who need clean, professional work delivered quickly — no long agency timelines, no bloated process.</p>
+            <p>Off the screen, I hold a <strong>4th Dan Black Belt in Hapkido</strong> and I'm a certified instructor — the same discipline and attention to detail that goes into a session goes into every project I take on.</p>
         
         </div>
 
@@ -71,29 +73,55 @@
 
 <!-- about End -->
 
+<!-- Services Section -->
+
+    <section id="Services" class="Skills_header">
+        <h2>Services & Pricing</h2>
+        <p style="text-align:center; font-size:18px;">Straightforward pricing. You know what you're paying for before we start.</p>
+    </section>
+
+    <section class="skill_text">
+        <div class="divtext">
+            <h3 class="h3text">Logo Design</h3>
+            <p class="litext">A custom logo with 2 concepts and revisions, delivered in 2–3 days.</p>
+        </div>
+
+        <div class="divtext">
+            <h3 class="h3text">Header / Banner Design</h3>
+            <p class="litext">Social media or web headers, sized to your platform, delivered in 1–2 days.</p>
+        </div>
+
+        <div class="divtext">
+            <h3 class="h3text">Landing Page / Website</h3>
+            <p class="litext">A responsive HTML/CSS site like this one — built, styled, and deployed for you.</p>
+        </div>
+    </section>
+
+<!-- Services Section Ends -->
+
+
 <!-- Skills Section -->
 
     <section id="Skills" class="Skills_header">
         <h2>Skills</h2>
     </section>
 
-    <!-- Make a p in the middel and make the skills turn around it  -->
     <section class="skill_text">
         <div class="divtext">
             <h3 class="h3text">Technical Skills</h3>
             <ul class="ultext">
                 <li class="litext">Graphic Design</li>
                 <li class="litext">HTML, CSS, JavaScript</li>
-                <li class="litext">Content Moderation & Social Media Management</li>
+                <li class="litext">Responsive Web Design</li>
             </ul>
         </div>
     
         <div class="divtext">
             <h3 class="h3text">Soft Skills</h3>
             <ul class="ultext">
-                <li class="litext">Communication & Team Collaboration</li>
+                <li class="litext">Clear Communication & Fast Turnaround</li>
                 <li class="litext">Adaptability & Problem-Solving</li>
-                <li class="litext">Leadership & Discipline</li>
+                <li class="litext">Leadership & Discipline (4th Dan Black Belt)</li>
             </ul>
         </div>
     
@@ -112,16 +140,11 @@
 
 <!-- Projects  --> 
 
-<!-- Make is a slide  -->
-
     <section class="Projects_header">
         <h2>Projects</h2>
         <h3> Header Images</h3>
-        <p>  Explore creative header designs for different purposes. Explore a collection of my work in Graphic Design, from logo designs to headers, and more!</p>
+        <p>  A sample of header and banner designs — logos, headers, and more.</p>
     </section>
-
-
-
 
     <div class="Projects_list1">
 
@@ -143,9 +166,6 @@
 
     </div>
     
-
-    </div>
-   
     <section  class="Projects_header2">
         <h2>Logos</h2>
         <p>A visual identity is everything!</p>
@@ -207,22 +227,27 @@
 <main role="main">
 
     <section id="Contact" class="contact_header">
-        <h2>Contact Me</h2>
+        <h2>Hire Me</h2>
+        <p style="font-size:18px;">Tell me what you need — I'll reply within 24 hours with a price and timeline.</p>
     </section>
 
-    <form>
+    <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
 
         <label for="name">Name:</label>
-        <input type="text" name="name" id="name" placeholder="Your Name!">
+        <input type="text" name="name" id="name" placeholder="Your Name!" required>
 
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="Your Email!">
+        <input type="email" name="email" id="email" placeholder="Your Email!" required>
 
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" rows="3" cols="30" placeholder="Your Message!"></textarea>
+        <label for="message">What do you need?</label>
+        <textarea name="message" id="message" rows="3" cols="30" placeholder="Logo, header, website... tell me about it" required></textarea>
 
-        <button type="submit"> Contact Us</button>
+        <button type="submit"> Send Request</button>
     </form>
+
+    <section>
+        <p style="font-size:16px;">Prefer WhatsApp? <a href="https://wa.me/YOUR_NUMBER_HERE" target="_blank">Message me directly</a></p>
+    </section>
 
     <section>
         <button onclick="window.location.href='cv.pdf'">Download CV</button>
@@ -230,15 +255,11 @@
 
 </main>
 
-    <!-- Contact Form -->
-
 <footer>
 
-    <p class="rights">&copy; 2025 Med Portfolio. All rights reserved.</p>
+    <p class="rights">&copy; 2025 Ahmed Moudar. All rights reserved.</p>
 
 </footer>
 
 </body>
 </html>
-
-
